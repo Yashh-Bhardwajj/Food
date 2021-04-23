@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background_food_app"
+tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/fullscreen_content_controls"
+    style=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:orientation="horizontal"
+    tools:ignore="UselessParent">
+
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/Logo"
+    android:layout_width="225dp"
+    android:layout_height="175dp"
+    android:layout_gravity="center_horizontal"
+
+    android:layout_margin="190dp"
+    android:background="#5CFF9999"
+    android:visibility="visible"
+    app:srcCompat="@drawable/logo"
+    android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="205dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="380dp"
+        android:background="#8DBD1212"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/StartButton"
+        android:textAllCaps="true"
+        android:textColor="#FAF7F7"
+        android:textSize="18sp"
+        app:backgroundTint="#7AFF9999"
+        app:rippleColor="#DCBD3434"
+        tools:text="START" />
+
+</FrameLayout>
